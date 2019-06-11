@@ -7,7 +7,7 @@ Usage
 -----
 ```
 module "ecs-service" {
-  source = "git::https://github.com/egarbi/terraform-aws-ecs-service"
+  source = "git::https://github.com/adi/terraform-aws-ecs-service"
 
   name                  = "example"
   environment           = "testing"
